@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: verdana; font-size: 15px;
+        }
+    </style>
+    <title>Cores em CSS</title>
+</head>
+<body>
+    <h1>Tipos de formatação de cor usando CSS</h1>
+    <H2>Abaixo alguns exemplos usando codigos css Inline</H2>
+    
+<!-- Representação de cores com nomes -->
+    <h2 style="background-color: blue; color: white;">Exemplo de cores</h2>
+    <h3>Representação de cores por nome</h3>
+    <p>Abaixo um exemplo do titulo acima usando o style para colorir a fonte e o background usando os nomes das cores correspondentes. </p>
+    <p> &lt style="background-color: blue; color: white;"&gt Exemplo de cores &lt/style&gt </p>
+    <p>Todos os navegadores modernos suportam os seguintes 140 nomes de cores, neste <a href="https://www.w3schools.com/colors/colors_hex.asp" rel="external" target="_blank"> LINK</a> você pode ver a lista dos nomes suportados.</p>
+<!-- Representação por códigos Hexadecimais-->
+<!-- Decimal: 0-1-2-3-4-5-6-7-8-9-->
+<!-- Hexadecimal: 0-1-2-3-4-5-6-7-8-9-a-b-c-d-e-f -->
+    <h2 style="background-color: #0000ff; color: #ffffff;">Exemplo de cores</h2>
+    <h3>Representação por códigos Hexadecimais</h3>
+    <p>Abaixo um exemplo do titulo acima usando o style para colorir a fonte e o background usando os codigos Hexadecimais das cores correspondentes. </p>
+    <p> &lt style="background-color: #0000ff; color: #ffffff;"&gt Exemplo de cores &lt/style&gt </p>
+    <p style="background-color: yellowgreen;">Onde rr (vermelho), gg (verde) e bb (azul) são valores hexadecimais entre 00 e ff (igual ao decimal 0-255).
+
+        Por exemplo, # ff0000 é exibido em vermelho, porque o vermelho é definido com seu valor mais alto (ff) e os outros dois (verde e azul) são definidos como 00.
+        
+        Outro exemplo, # 00ff00 é exibido como verde, porque o verde é definido com seu valor mais alto (ff) e os outros dois (vermelho e azul) são definidos como 00.
+        
+        Para exibir o preto, defina todos os parâmetros de cor para 00, como este: # 000000.
+        
+        Para exibir o branco, defina todos os parâmetros de cor para ff, assim: #ffffff.</p>
+<!--Representação de cores por R-G-B -->
+<!-- Valores de R-G-B de 0 a 255 -->
+    <h2 style="background-color: rgb(255, 0 , 255); color: rgb(0, 0 , 255);">Exemplo de cores</h2>
+    <h3>Representação de cores por R-G-B</h3>
+    <p>Abaixo um exemplo do titulo acima usando o style para colorir a fonte e o background usando os valores de RGB (RED, GREEN, BLUE ) das cores correspondentes. </p>
+    <p> &lt style="background-color: rgb;(255, 0 ,255) color: rgb(0, 0 , 255);"&gt Exemplo de cores &lt/style&gt </p>
+    <p style="background-color: yellowgreen;">Cada parâmetro (vermelho, verde e azul) define a intensidade da cor com um valor entre 0 e 255.
+
+        Isso significa que existem 256 x 256 x 256 = 16777216 cores possíveis!
+        
+        Por exemplo, rgb (255, 0, 0) é exibido como vermelho, porque vermelho está definido com seu valor mais alto (255) e os outros dois (verde e azul) são definidos como 0.
+        
+        Outro exemplo, rgb (0, 255, 0) é exibido como verde, porque verde está definido com seu valor mais alto (255) e os outros dois (vermelho e azul) são definidos como 0.
+        
+        Para exibir o preto, defina todos os parâmetros de cor para 0, como este: rgb (0, 0, 0).
+        
+        Para exibir o branco, defina todos os parâmetros de cor para 255, como este: rgb (255, 255, 255).</p>
+<!--Representação por HSL ( HUE, SATURATION, LUMINOSITY)-->
+    <h2 style="background-color: hsl(240, 100%, 50%);color: hsl(0, 0%, 100%);">Exemplo de cores</h2>
+    <h3>Representação por HSL ( HUE, SATURATION, LUMINOSITY)</h3>
+    <p>Abaixo um exemplo do titulo acima usando o style para colorir a fonte e o background usando valos HSL (HEU, SATURATION E LUMINOSITY) das cores correspondentes. </p>
+    <p> &lt style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);"&gt Exemplo de cores &lt/style&gt </p>
+    <p style="background-color: yellowgreen;">Matiz é um grau no disco de cores de 0 a 360. 0 é vermelho, 120 é verde e 240 é azul.
+
+        A saturação é um valor percentual, 0% significa um tom de cinza e 100% é a cor total.
+        
+        A claridade também é um valor percentual, 0% é preto e 100% é branco.</p>
+<!-- Representação de cores HSLA VISUAL STUDIO PALETA DE CORES-->
+    <h2 style="background-color: rgba(12, 12, 155, 0.089); color: rgba(0, 11, 109, 0.26);"> Exemplo de cores</h2>
+    <h3>Representação de cores HSLA VISUAL STUDIO PALETA DE CORES</h3>
+    <p>Abaixo um exemplo do titulo acima usando o style para colorir a fonte e o background usando valos HSLA (HEU, SATURATION, LUMINOSITY) e ALFA das cores correspondentes. </p>
+    <p> &lt style="background-color: hsla (240, 100%, 50%, 0.089); color: hsl(0, 0%, 100%, 0.26);"&gt Exemplo de cores &lt/style&gt </p>
+    <p style="background-color: yellowgreen;">Os valores de cor HSLA são uma extensão dos valores de cor HSL com um canal Alfa - que especifica a opacidade de uma cor.</p>
+
+</body>
+</html>
