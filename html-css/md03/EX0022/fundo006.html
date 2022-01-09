@@ -7,15 +7,24 @@
     <title>Teste de imagem de fundo</title>
     <style>
         body{
-            height: 100vh;
+           /* height: 100vh;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+
+            /*Shorthand - backgroung
+            color> image> position> repeat> [size]-(Não aceito ainda nos navegadores)> attachement
+            */
+            background:black url(imagens/wallpaper002.jpg) center center fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,7 +37,7 @@
 <body>
     <main>
         <h1> Teste de Imagem de fundo.</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, nesciunt quo et rem quia quas excepturi consequatur? Quibusdam, quia iste. Mollitia nulla, possimus corrupti repellendus magnam suscipit placeat sunt reiciendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis suscipit dolore molestias accusamus, unde reprehenderit eum quisquam doloremque soluta, cumque sunt voluptatibus culpa quam esse ipsa pariatur ratione quos magnam?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, nesciunt quo et rem quia quas excepturi consequatur? Quibusdam, quia iste. Mollitia nulla, possimus corrupti repellendus magnam suscipit placeat sunt reiciendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis suscipit dolore molestias accusamus, unde reprehenderit eum quisquam doloremque soluta, cumque sunt voluptatibus culpa quam esse ipsa pariatur ratione quos magnam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veritatis ratione recusandae tempora voluptatum laboriosam distinctio tenetur vel nobis quaerat magni velit nam quos, nesciunt iusto mollitia facere eum similique? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas tenetur distinctio asperiores. Perspiciatis esse quod impedit. Nulla itaque maxime non magni, delectus est iure accusantium expedita sunt at odio quis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur quibusdam tenetur nemo adipisci? Dolorem quo, velit amet laudantium nobis mollitia! Id voluptate similique numquam voluptatum obcaecati placeat possimus saepe!</p>
     </main>
     
 </body>
